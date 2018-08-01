@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+    background-color: $black;
+    color: $white;
+    font-family: $ff-lato;
+
+    h1 {
+        padding: 10px 0;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+
+        a {
+            text-decoration: none;
+            color: $white;
+
+            span {
+                color: $main-green;
+                font-weight: $fw-b;
+            }
+        }
+    }
+
+    nav {
+        padding: 0 0 10px 0;
+        text-transform: uppercase;
+        font-weight: $fw-b;
+        font-size: 0.8rem;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style-type: none;
+            
+            li {
+                
+                a {
+                    text-decoration: none;
+                    color: $white;
+                }
+
+                a:hover {
+                    color: $main-green;
+                }
+            }
+        }
+    }
+}
