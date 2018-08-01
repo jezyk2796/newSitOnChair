@@ -5,7 +5,7 @@ header {
     font-family: $ff-lato;
 
     h1 {
-        padding: 10px 0;
+        padding: .8rem 0;
         font-size: 2rem;
         display: flex;
         justify-content: center;
@@ -24,10 +24,10 @@ header {
     }
 
     nav {
-        padding: 0 0 10px 0;
+        padding: 0 0 .8rem 0;
         text-transform: uppercase;
         font-weight: $fw-b;
-        font-size: 0.8rem;
+        font-size: .8rem;
 
         ul {
             display: flex;
@@ -44,6 +44,30 @@ header {
 
                 a:hover {
                     color: $main-green;
+                }
+            }
+        }
+    }
+
+    @media (min-width: 800px) {
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h1 {
+                padding: .5rem 0;
+                font-size: 0.8rem;
+            }
+
+            nav {
+                padding: .9rem 0;
+
+                ul {
+                    li {
+                        margin: 0 0 0 .9rem;
+                    }
                 }
             }
         }
