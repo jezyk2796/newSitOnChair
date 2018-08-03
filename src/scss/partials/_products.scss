@@ -1,0 +1,84 @@
+#products {
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .product-box {
+            width: 100%;
+            height: 10rem;
+            margin: 2.3rem 0 0 0;
+
+            .product-title {
+                width: 100%;
+                height: 3rem;
+                margin: 6rem 0 0 0;
+                background-color: $bg-opacity;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h4 {
+                    font-size: 1.1rem;
+                    font-weight: $fw-b;
+                    width: 80%;
+                }
+            }
+        }
+    
+        .chair-photo {
+            border: 1px solid $border-gray;
+            background-image: url(../../img/box1_img.jpg);
+            @include bg-img();
+
+            .product-title {
+                h4 {
+                    &::after {
+                        @include underline();
+                        width: 12rem;
+                    }
+                }
+            }
+        }
+    
+        .children-photo {
+            border: 1px solid $border-gray;
+            background-image: url(../../img/box2_img.jpg);
+            @include bg-img();
+
+            .product-title {
+                h4 {
+                    &::after {
+                        @include underline();
+                        width: 15rem;
+                    }
+                }
+            }
+        }
+
+        .product-description {
+            width: 80%;
+            height: auto;
+            margin: 2.3rem 0;
+            
+            h4 {
+                font-weight: $fw-b;
+                font-size: 1.1rem;
+
+                &::after {
+                    @include underline();
+                    width: 13rem;
+                }
+            }
+
+            p {
+                margin: 1.7rem 0 0 0;
+                font-size: .9rem;
+                color: $font-gray;
+            }
+        }
+    }
+
+}

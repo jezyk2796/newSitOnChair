@@ -8,3 +8,16 @@
     background: linear-gradient(to bottom, rgba(250, 250, 250, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 0%, rgba(205, 199, 210, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#cdc7d2', GradientType=0);
 }
+
+@mixin bg-img() {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin underline() {
+    content: '';
+    display: block;
+    height: .4rem;
+    background-color: $main-green;
+}
