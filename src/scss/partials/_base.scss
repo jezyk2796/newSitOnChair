@@ -9,3 +9,16 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+
+h3 {
+    color: $title-gray;
+    text-transform: uppercase;
+    font-family: $ff-lato;
+    font-size: 1.5rem;
+    padding: 2rem 0 0 0;
+
+    &::after {
+        @include underline()
+        width: 10rem;
+    }
+}

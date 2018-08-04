@@ -21,7 +21,7 @@
                 align-items: center;
 
                 h4 {
-                    font-size: 1.1rem;
+                    font-size: .8rem;
                     font-weight: $fw-b;
                     width: 80%;
                 }
@@ -37,7 +37,7 @@
                 h4 {
                     &::after {
                         @include underline();
-                        width: 12rem;
+                        width: 9rem;
                     }
                 }
             }
@@ -52,7 +52,7 @@
                 h4 {
                     &::after {
                         @include underline();
-                        width: 15rem;
+                        width: 12rem;
                     }
                 }
             }
