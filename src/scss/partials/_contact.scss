@@ -1,0 +1,76 @@
+#contact-form {
+    
+    form {
+        margin: 2.5rem 0;
+
+        .input {
+            @include input-look();
+        }
+
+        .input[placeholder] {
+            font-family: $ff-raleway;
+        }
+
+        .input-message {
+            padding: .5rem 0 0 .5rem;
+            height: 9rem;
+            resize: none;
+        }
+
+        .contact-img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .checkbox-div {
+            width: 100%;
+            margin: 1.5rem 0;
+            text-align: center;
+
+            label {
+                cursor: pointer;
+                
+                #checkbox {
+                    display: none;
+                    
+                    + .label-text::before {
+                        content: '';
+                        display: block;
+                        width: 3rem;
+                        height: 2.7rem;
+                        background-color: transparent;
+                        border: 1px solid $main-green;
+                        border-radius: .2rem;
+                        margin: 0 1rem 0 0;
+                        padding: .3rem 0 0 0;
+                        float: left;
+                    }
+
+                    &:checked + .label-text::before {
+                        content: url(../../img/form_ok.jpg);
+                    }
+                }
+            }
+        }
+
+        .form-btn-box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            #form-btn {
+                border: none;
+                border-radius: .3rem;
+                width: 15rem;
+                height: 4rem;
+                background-color: $main-green;
+                color: $white;
+                font-family: $ff-raleway;
+                // font-weight: $fw-b;
+                font-size: 2rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
