@@ -27,30 +27,30 @@
             width: 100%;
             margin: 1.5rem 0;
             text-align: center;
+            color: $label-text;
 
             label {
                 cursor: pointer;
                 
-                #checkbox {
-                    display: none;
-                    
-                    + .label-text::before {
-                        content: '';
-                        display: block;
-                        width: 3rem;
-                        height: 2.7rem;
-                        background-color: transparent;
-                        border: 1px solid $main-green;
-                        border-radius: .2rem;
-                        margin: 0 1rem 0 0;
-                        padding: .3rem 0 0 0;
-                        float: left;
-                    }
+                // #checkbox {
+                //     display: none;
 
-                    &:checked + .label-text::before {
-                        content: url(../../img/form_ok.jpg);
-                    }
-                }
+                //     + .label-text::before {
+                //         content: '';
+                //         display: block;
+                //         width: 3rem;
+                //         height: 2.7rem;
+                //         background-color: transparent;
+                //         border: 1px solid $main-green;
+                //         border-radius: .2rem;
+                //         margin: 0 1rem 0 0;
+                //         padding: .3rem 0 0 0;
+                //     }
+
+                //     &:checked + .label-text::before {
+                //         content: url(../../img/form_ok.jpg);
+                //     }
+                // }
             }
         }
 
@@ -62,12 +62,12 @@
             #form-btn {
                 border: none;
                 border-radius: .3rem;
-                width: 15rem;
+                width: 14rem;
                 height: 4rem;
                 background-color: $main-green;
                 color: $white;
                 font-family: $ff-raleway;
-                // font-weight: $fw-b;
+                font-weight: $fw-bolder;
                 font-size: 2rem;
                 text-transform: uppercase;
             }

@@ -1,0 +1,34 @@
+footer {
+    // padding: 2rem 0;
+    color: $footer-font;
+
+    p {
+        width: 100%;
+        text-align: center;
+        font-size: .9rem;
+    }
+
+    .social-icons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem 0;
+
+        a {
+            margin: 0 .5rem;
+        }
+    }
+
+    h6 {
+        width: 100%;
+        padding: 0 0 2rem 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $ff-lato;
+        font-size: 1.2rem;
+
+        span {
+            font-weight: $fw-b;
+        }
+    }
+}
