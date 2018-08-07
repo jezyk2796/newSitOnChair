@@ -46,4 +46,20 @@
             color: $white;
         }
     }
+
+    @media (min-width: 768px) {
+
+        padding: 3rem 0;
+        
+        .container {
+            display: flex;
+
+            .main-img {
+                width: 50%;            }
+    
+            .main-description {
+                width: 50%;            }
+        }
+
+    }
 }

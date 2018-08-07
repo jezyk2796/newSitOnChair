@@ -32,23 +32,27 @@
             label {
                 cursor: pointer;
                 
-                // #checkbox {
-                //     display: none;
+                // @media (min-width: 768px) {
 
-                //     + .label-text::before {
-                //         content: '';
-                //         display: block;
-                //         width: 3rem;
-                //         height: 2.7rem;
-                //         background-color: transparent;
-                //         border: 1px solid $main-green;
-                //         border-radius: .2rem;
-                //         margin: 0 1rem 0 0;
-                //         padding: .3rem 0 0 0;
-                //     }
-
-                //     &:checked + .label-text::before {
-                //         content: url(../../img/form_ok.jpg);
+                //     #checkbox {
+                //         display: none;
+    
+                //         + .label-text::before {
+                //             content: '';
+                //             display: block;
+                //             width: 3rem;
+                //             height: 2.7rem;
+                //             background-color: transparent;
+                //             border: 1px solid $main-green;
+                //             border-radius: .2rem;
+                //             margin: 0 1rem 0 0;
+                //             padding: .3rem 0 0 0;
+                //             float: left;
+                //         }
+    
+                //         &:checked + .label-text::before {
+                //             content: url(../../img/form_ok.jpg);
+                //         }
                 //     }
                 // }
             }
