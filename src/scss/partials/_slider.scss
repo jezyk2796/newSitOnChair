@@ -2,7 +2,7 @@
     width: 100%;
     @include gradient;
 
-    .arrow {
+    .arrow-box {
         display: none;
     }
 
@@ -61,5 +61,46 @@
                 width: 50%;            }
         }
 
+    }
+
+    @media (min-width: 1024px) {
+        .container {
+            
+
+            .arrow-box {
+                display: block;
+                width: 10%;
+                display: flex;
+                align-items: center;
+
+
+                .arrow {
+                    width: 100%;
+                    font-size: 7rem;
+                    color: $main-green;
+                }
+
+                .left {
+                    text-align: left;
+                }
+
+                .right {
+                    text-align: right;
+                }
+            }
+
+            
+
+            .main-img {
+                width: 40%;
+            }
+            .main-description {
+                width: 40%;
+
+                h2 {
+                    font-size: 1.9rem;
+                }
+            }
+        }
     }
 }
