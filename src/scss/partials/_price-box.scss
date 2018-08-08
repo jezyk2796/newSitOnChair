@@ -163,3 +163,23 @@
         }
     }
 }
+
+@media (min-width: 1024px) {
+    #price-list {
+
+        .container {
+    
+            .options-box {
+                flex-flow: nowrap;
+    
+                .product-option {
+                    width: 30%;
+                }
+    
+                .last {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
