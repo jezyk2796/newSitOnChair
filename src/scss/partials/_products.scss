@@ -85,8 +85,6 @@
 
         .container {
             width: 80%;
-            flex-direction: row;
-            flex-wrap: wrap;
             justify-content: center;
 
             .product-box {
@@ -109,6 +107,28 @@
                     padding: 1.5rem 0 0 1.5rem;
                     margin: 0;
                 }
+            }
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .container {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            .product-box {
+                width: 30%;
+                height: 15rem;
+
+                .product-title {
+                    margin: 10.5rem 0 1.5rem 0;
+                }
+            }
+
+            .product-description {
+                height: auto;
+                padding: 0 0 1.5rem 0;
             }
         }
     }
