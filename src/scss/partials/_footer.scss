@@ -42,6 +42,10 @@ footer {
             align-items: center;
             justify-content: space-between;
 
+            p {
+                text-align: left;
+            }
+
             h6 {
                 padding: 0;
                 width: 30rem;
@@ -50,6 +54,7 @@ footer {
 
             .social-icons {
                 margin: 0;
+                justify-content: flex-end;
             }
         }
     }
