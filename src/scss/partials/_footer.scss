@@ -1,5 +1,4 @@
 footer {
-    // padding: 2rem 0;
     color: $footer-font;
 
     p {
@@ -29,6 +28,29 @@ footer {
 
         span {
             font-weight: $fw-b;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    
+    footer {
+        padding: 0 0 3rem 0;
+        
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            h6 {
+                padding: 0;
+                width: 30rem;
+                text-align: right;
+            }
+
+            .social-icons {
+                margin: 0;
+            }
         }
     }
 }

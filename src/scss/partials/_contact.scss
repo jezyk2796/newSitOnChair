@@ -60,6 +60,7 @@
 
         form {
             display: flex;
+            justify-content: space-between;
 
             .inputs-box {
                 width: 60%;
@@ -74,38 +75,42 @@
             }
 
             .submit-box {
-                width: 40%;
+                width: 35%;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
 
-                // .checkbox-div {
+                .checkbox-div {
+                    width: 95%;
+                    height: 4.7rem;
+                    text-align: left;
 
-                //     label {
-                //         @media (min-width: 1024px) {
+                    label {
+                        @media (min-width: 1024px) {
 
-                //             #checkbox {
-                //                 display: none;
+                            #checkbox {
+                                display: none;
             
-                //                 + .label-text::before {
-                //                     content: '';
-                //                     display: block;
-                //                     width: 3rem;
-                //                     height: 2.7rem;
-                //                     background-color: transparent;
-                //                     border: 1px solid $main-green;
-                //                     border-radius: .2rem;
-                //                     margin: 0 1rem 0 0;
-                //                     padding: .3rem 0 0 0;
-                //                     float: left;
-                //                 }
+                                + .label-text::before {
+                                    content: '';
+                                    display: block;
+                                    width: 3rem;
+                                    height: 2.7rem;
+                                    background-color: transparent;
+                                    border: 1px solid $main-green;
+                                    border-radius: .2rem;
+                                    margin: 0 1rem 0 0;
+                                    padding: .3rem 0 0 0;
+                                    float: left;
+                                }
             
-                //                 &:checked + .label-text::before {
-                //                     content: url(../../img/form_ok.jpg);
-                //                 }
-                //             }
-                //         }
-                //     }
-                // }
+                                &:checked + .label-text::before {
+                                    content: url(../../img/form_ok.jpg);
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
