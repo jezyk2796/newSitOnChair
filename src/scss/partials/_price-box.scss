@@ -91,6 +91,11 @@
                 background-color: $main-green;
                 color: $white;
             }
+
+            .price-btn:hover {
+                background-color: $hover-color;
+                cursor: pointer;
+            }
         }
 
         .middle {
@@ -111,6 +116,12 @@
             .price-btn {
                 background-color: $white;
                 color: $main-green;
+            }
+
+            .price-btn:hover {
+                background-color: $hover-color;
+                color: $white;
+                cursor: pointer;
             }
         }
     }

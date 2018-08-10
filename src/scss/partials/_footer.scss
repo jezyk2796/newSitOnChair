@@ -26,6 +26,11 @@ footer {
         font-family: $ff-lato;
         font-size: 1.2rem;
 
+        a {
+            text-decoration: none;
+            color: unset;
+        }
+
         span {
             font-weight: $fw-b;
         }

@@ -51,6 +51,11 @@
                 font-size: 2rem;
                 text-transform: uppercase;
             }
+
+            #form-btn:hover {
+                background-color: $hover-color;
+                cursor: pointer;
+            }
         }
     }
 }

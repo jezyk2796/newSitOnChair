@@ -27,6 +27,11 @@
                 }
             }
         }
+
+        .product-box:hover {
+            border-color: $hover-color;
+            cursor: pointer;
+        }
     
         .chair-photo {
             border: 1px solid $border-gray;
