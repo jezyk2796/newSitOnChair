@@ -15,6 +15,14 @@ footer {
 
         a {
             margin: 0 .5rem;
+            
+            img {
+                transition: .6s;
+            }
+
+            img:hover {
+                transform: rotate(360deg);
+            }
         }
     }
 
@@ -25,6 +33,7 @@ footer {
         text-transform: uppercase;
         font-family: $ff-lato;
         font-size: 1.2rem;
+        transition: .7s;
 
         a {
             text-decoration: none;
@@ -34,6 +43,10 @@ footer {
         span {
             font-weight: $fw-b;
         }
+    }
+
+    h6:hover {
+        font-size: 1.3rem;
     }
 }
 

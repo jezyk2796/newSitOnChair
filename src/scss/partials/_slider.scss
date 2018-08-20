@@ -45,6 +45,7 @@
             background-color: $main-green;
             color: $white;
             cursor: pointer;
+            transition: .3s;
         }
 
         button:hover {
@@ -82,6 +83,7 @@
                     width: 100%;
                     font-size: 7rem;
                     color: $main-green;
+                    transition: .3s;
                 }
 
                 .arrow:hover {

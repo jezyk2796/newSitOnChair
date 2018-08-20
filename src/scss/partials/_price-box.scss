@@ -90,6 +90,7 @@
             .price-btn {
                 background-color: $main-green;
                 color: $white;
+                transition: .3s;
             }
 
             .price-btn:hover {
@@ -116,6 +117,7 @@
             .price-btn {
                 background-color: $white;
                 color: $main-green;
+                transition: .3s;
             }
 
             .price-btn:hover {
